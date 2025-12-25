@@ -37,7 +37,7 @@
 
 ## ⚡ SYSTEM OVERRIDE INITIATED
 
-**S1B CordTheme** is not just a skin; it's a total visual overhaul designed to turn your Discord client into a **futuristic command center**. Built for those who live in the terminal and dream in neon.
+**S1B CordTheme** is a high-performance dark theme for Legcord & Vencord featuring neon aesthetics, glassmorphism, and terminal vibes. It's a total visual overhaul designed to turn your Discord client into a **futuristic command center**. Built for those who live in the terminal and dream in neon.
 
 ### 🔮 VISUAL CORTEX ENHANCEMENTS
 
