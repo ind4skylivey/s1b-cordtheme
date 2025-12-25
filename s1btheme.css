@@ -1,0 +1,125 @@
+/**
+ * @name SiB Gr0up theme
+ * @author il1v3y
+ * @version 25.1
+ * @website https://ind4skylivey.github.io/
+*/
+
+/* ======================================================================== */
+/* 1. LOADER (don't touch it) */
+/* ======================================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&display=swap');
+@import url('https://ind4skylivey.github.io/S1B-Discord/awkglass/loader.css');
+
+
+/* ======================================================================== */
+/* 2. USER SETTINGS */
+/* ======================================================================== */
+
+:root {
+    /* --- BACKGROUND AND IMAGES --- */
+    /* Background Image */
+    --custom-image-url: url('https://i.postimg.cc/GhQzTtCX/vector2.png');
+
+    /* Image blur (default: 8px) */
+    --app-blur: 12px;
+
+
+    /* --- MAIN COLORS --- */
+    --rgb-highlight: 220, 20, 255; /* Neon Purple/Magenta */
+    --app-border-frame: rgba(0, 255, 255, 0.3) !important; /* Cyan Border Glow */
+
+    /* Danger/Close Button color */
+    --rgb-close-button: 255, 0, 60;
+
+
+    /* --- USER STATUS (RGB format) --- */
+    --rgb-online-color: 0, 255, 255;        /* Online (Cyan) */
+    --rgb-afk-color: 255, 230, 0;           /* Idle (Bright Yellow) */
+    --rgb-dnd-color: 255, 20, 60;           /* DnD (Neon Red) */
+    --rgb-streaming-color: 180, 50, 255;    /* Streaming (Lighter Purple) */
+
+
+    /* --- TITLE AND ICONS CUSTOMIZATION --- */
+    --custom-title-text: "S1b Terminal";                   /* The custom text you want to display */
+    --custom-title-font-size: 14px;                                 /* The size in pixels of the custom title text */
+    --custom-title-font-family: "Rajdhani", var(--font-primary);  /* The font family of the custom title */
+
+    /* Home/DM Icon (Discord logo left top) */
+    --custom-logo: url('https://i.postimg.cc/qMPBnJxs/image0.png');
+    --custom-logo-hover: url('https://i.postimg.cc/qMPBnJxs/image0.png');
+
+    --show-dev-panel-info-static: 0; /* Set to 1 to show the static version, 0 to hide | (NOTE: for static to work also hover need to be 1) */
+    --show-dev-panel-info-hover: 1; /* Set to 1 to show the static or hover version, put 0 to hide */
+}
+
+/* ======================================================================== */
+/* 3. CYBERPUNK ENHANCEMENTS (S1b Custom) */
+/* ======================================================================== */
+
+/* --- 3.1 Tech/Industrial Look (Squared Corners) --- */
+/* Remove border radius from avatars, buttons, and panels for a sharper look */
+:root {
+    --radius-sm: 2px;
+    --radius-md: 2px;
+    --radius-lg: 4px;
+    --radius-xs: 0px;
+    --radius-xxl: 4px;
+    --avatar-radius: 0px; /* Square avatars */
+}
+
+/* --- 3.2 Neon Glow Effects --- */
+/* Add a subtle glow to the custom title */
+.custom-title-text {
+    text-shadow: 0 0 5px rgba(var(--rgb-highlight), 0.8), 0 0 10px rgba(var(--rgb-highlight), 0.5);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+/* Glow for primary buttons */
+button[class*="colorBrand"] {
+    box-shadow: 0 0 8px rgba(var(--rgb-highlight), 0.4);
+    transition: box-shadow 0.2s ease-in-out;
+}
+button[class*="colorBrand"]:hover {
+    box-shadow: 0 0 15px rgba(var(--rgb-highlight), 0.7);
+}
+
+/* --- 3.3 Logo Animation --- */
+/* Rotate the home icon on hover */
+[class*="homeIcon"] {
+    transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+[class*="homeIcon"]:hover {
+    transform: rotate(360deg) scale(1.1);
+}
+
+/* --- 3.4 Advanced Transparency & Readability --- */
+/* Darken the sidebar slightly to make text pop against the bright background */
+[class*="sidebar_"] {
+    background: rgba(0, 0, 0, 0.4) !important;
+    border-right: 1px solid rgba(var(--rgb-highlight), 0.2);
+}
+
+/* Chat area transparency adjustment */
+[class*="chat_"] {
+    background: rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Member list background */
+[class*="members_"] {
+    background: rgba(0, 0, 0, 0.3) !important;
+    border-left: 1px solid rgba(var(--rgb-highlight), 0.2);
+}
+
+/* --- 3.5 Selection & Scrollbars --- */
+::selection {
+    background: rgba(var(--rgb-highlight), 0.6);
+    color: white;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(var(--rgb-highlight), 0.5) !important;
+    border-radius: 0px !important;
+}
