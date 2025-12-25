@@ -2,52 +2,84 @@
 
 <div align="center">
 
+<img src="media/s1b_banner.png" alt="S1B CordTheme Banner" width="100%" style="border-radius: 10px; border: 2px solid #b266ff; box-shadow: 0 0 20px rgba(178, 102, 255, 0.5);">
+
 ![Version](https://img.shields.io/badge/VERSION-25.1-purple?style=for-the-badge&logo=discord)
 ![Status](https://img.shields.io/badge/SYSTEM-ONLINE-cyan?style=for-the-badge)
 ![Faction](https://img.shields.io/badge/FACTION-S1B_GROUP-ff003c?style=for-the-badge)
+![Security](https://img.shields.io/badge/SECURITY-ENCRYPTED-success?style=for-the-badge&logo=lock)
 
-<img src="media/s1b_banner.png" alt="S1B CordTheme Banner" width="100%" style="border-radius: 10px; border: 2px solid #b266ff; box-shadow: 0 0 20px rgba(178, 102, 255, 0.5);">
+```text
+#    ┏┓┓┓ ┏┓  ┏┓       •
+#    ┗┓┃┣┓┃┓┏┓┃┫┓┏┏┓   ┓┏┓┏
+#    ┗┛┻┗┛┗┛┛ ┗┛┗┻┣┛  •┗┛┗┗
+#    ┏┳┓┓         ┛┏       ┓
+#     ┃ ┣┓┏┓┏┳┓┏┓  ╋┏┓┏┓  ╋┣┓┏┓
+#     ┻ ┛┗┗ ┛┗┗┗   ┛┗┛┛   ┗┛┗┗
+#     ┓ •┓ ┓      ╹     ┏   ┓       •  ┓
+#    ┏┣┓┓┃┏┫┏┓┏┓┏┓ ┏  ┏┓╋  ╋┣┓┏┓  ┏┓┓┏┓┣┓╋
+#    ┗┛┗┗┗┗┻┛ ┗ ┛┗ ┛  ┗┛┛  ┗┛┗┗   ┛┗┗┗┫┛┗┗
+#                                     ┛
 
-> _Wake up, Samurai. We have a server to burn._
+```
+
+> _Wake up, Samurai. We have a server to burn._ █
 
 </div>
 
 ---
 
+## >\_ SYSTEM.BOOT_SEQUENCE
+
+```bash
+[root@s1b-terminal ~]# ./init_theme.sh
+> Initializing S1B Core... [OK]
+> Loading Neon Modules... [OK]
+> Bypassing Mainframe Security... [SUCCESS]
+> Injecting CSS Payloads...
+> SYSTEM OVERRIDE COMPLETE.
+> Welcome to the future.
+```
+
 ## ⚡ SYSTEM OVERRIDE INITIATED
 
-**S1B Group Theme** is not just a skin; it's a total visual overhaul designed to turn your Discord client into a **futuristic command center**. Built for those who live in the terminal and dream in neon.
+**S1B CordTheme** is not just a skin; it's a total visual overhaul designed to turn your Discord client into a **futuristic command center**. Built for those who live in the terminal and dream in neon.
 
 ### 🔮 VISUAL CORTEX ENHANCEMENTS
 
-- **Neon Injection**: Deep `Neon Purple` highlights mixed with `Cyber Cyan` status indicators.
-- **Glassmorphism 2.0**: High-end transparency with background blur (`--app-blur`) for depth.
-- **Industrial Frame**: Squared-off corners, glowing borders, and tech-inspired typography (`Rajdhani`).
-- **Dynamic Response**: Elements glow, rotate, and shift upon interaction.
+- `[NEON_INJECTION]` :: Deep **Neon Purple** highlights mixed with **Cyber Cyan** status indicators.
+- `[GLASS_PROTOCOLS]` :: High-end transparency with background blur (`--app-blur`) for depth.
+- `[INDUSTRIAL_FRAME]` :: Squared-off corners, glowing borders, and tech-inspired typography (`Rajdhani`).
+- `[DYNAMIC_RESPONSE]` :: Elements glow, rotate, and shift upon interaction.
 
 ---
 
-## 📥 INJECTION PROTOCOLS
+## 📥 INJECTION.EXE
 
-Choose your injection method to override the default UI.
+Execute the following protocols to override the default UI.
 
-### 🟢 Legcord (Primary System)
+### 🟢 PROTOCOL: LEGCORD (PRIMARY)
 
-1.  **Copy** the raw link of the `s1btheme.css` file.
-2.  Open **Legcord** settings.
-3.  Navigate to **Client Mods** -> **Themes**.
-4.  Paste the URL into the **Online Themes** box or load the file locally.
+```diff
++ 1. Copy the raw link of the 's1btheme.css' file.
++ 2. Open Legcord settings.
++ 3. Navigate to Client Mods -> Themes.
++ 4. Paste URL into Online Themes box.
+! 5. RELOAD CLIENT.
+```
 
-### 🔵 BetterDiscord / Vencord
+### 🔵 PROTOCOL: VENCORD / BETTERDISCORD
 
-1.  Download `s1btheme.css` from the repository.
-2.  Navigate to **Settings** -> **Themes**.
-3.  Drop the file into the themes folder.
-4.  **Engage** the switch.
+```diff
+- 1. Download 's1btheme.css' from the repository.
+- 2. Navigate to Settings -> Themes.
+- 3. Drop file into themes folder.
+- 4. Engage the switch.
+```
 
 ---
 
-## 🛠️ NEURAL CONFIGURATION
+## 🛠️ NEURAL_CONFIG.SYS
 
 Access the `:root` directory of the CSS to customize your experience.
 
@@ -73,18 +105,18 @@ Access the `:root` directory of the CSS to customize your experience.
 
 ---
 
-## 📊 SYSTEM DIAGNOSTICS
+## 📊 SYSTEM_DIAGNOSTICS
 
-| COMPONENT         |    STATUS    | INTEGRITY |
-| :---------------- | :----------: | :-------: |
-| **Legcord**       |  `OPTIMAL`   |   100%    |
-| **Vencord**       | `COMPATIBLE` |    98%    |
-| **BetterDiscord** | `COMPATIBLE` |    95%    |
-| **Mobile**        |  `UNSTABLE`  |    40%    |
+| COMPONENT         |        STATUS        | INTEGRITY |
+| :---------------- | :------------------: | :-------: |
+| **Legcord**       |     `[OPTIMAL]`      |   100%    |
+| **Vencord**       |    `[COMPATIBLE]`    |    98%    |
+| **BetterDiscord** |    `[COMPATIBLE]`    |    95%    |
+| **Mobile**        | `[CRITICAL_FAILURE]` |    40%    |
 
 ---
 
-## 📂 CORE ARCHITECTURE
+## 📂 CORE_ARCHITECTURE
 
 ```bash
 S1B-DISCORD/
@@ -98,18 +130,18 @@ S1B-DISCORD/
 
 ---
 
-## 📡 NETWORK UPLINK
+## 📡 NETWORK_UPLINK
 
 Establish a secure connection with the developer.
 
-- [**GITHUB**](https://github.com/ind4skylivey) `[ACCESS_GRANTED]`
-- [**WEBSITE**](https://ind4skylivey.github.io/) `[PUBLIC_GATEWAY]`
+- `[LINK]` [**GITHUB**](https://github.com/ind4skylivey) `[ACCESS_GRANTED]`
+- `[LINK]` [**WEBSITE**](https://ind4skylivey.github.io/) `[PUBLIC_GATEWAY]`
 
 ---
 
 <div align="center">
 
-### 📡 TRANSMISSION ENDS
+### 🏁 TRANSMISSION ENDS
 
 **Architect**: `il1v3y` | **S1B Group**
 _The future is now._
