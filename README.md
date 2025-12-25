@@ -9,19 +9,13 @@
 ![Faction](https://img.shields.io/badge/FACTION-S1B_GROUP-ff003c?style=for-the-badge)
 ![Security](https://img.shields.io/badge/SECURITY-ENCRYPTED-success?style=for-the-badge&logo=lock)
 
-```text
-#    ┏┓┓┓ ┏┓  ┏┓       •
-#    ┗┓┃┣┓┃┓┏┓┃┫┓┏┏┓   ┓┏┓┏
-#    ┗┛┻┗┛┗┛┛ ┗┛┗┻┣┛  •┗┛┗┗
-#    ┏┳┓┓         ┛┏       ┓
-#     ┃ ┣┓┏┓┏┳┓┏┓  ╋┏┓┏┓  ╋┣┓┏┓
-#     ┻ ┛┗┗ ┛┗┗┗   ┛┗┛┛   ┗┛┗┗
-#     ┓ •┓ ┓      ╹     ┏   ┓       •  ┓
-#    ┏┣┓┓┃┏┫┏┓┏┓┏┓ ┏  ┏┓╋  ╋┣┓┏┓  ┏┓┓┏┓┣┓╋
-#    ┗┛┗┗┗┗┻┛ ┗ ┛┗ ┛  ┗┛┛  ┗┛┗┗   ┛┗┗┗┫┛┗┗
-#                                     ┛
+<br>
 
-```
+<a href="https://github.com/ind4skylivey/s1b-cordtheme">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=35&pause=1000&color=B266FF&center=true&vCenter=true&width=600&lines=S1B+CORDTHEME;CYBERPUNK+DISCORD+OVERHAUL;WAKE+UP%2C+SAMURAI...;SYSTEM+READY." alt="Typing SVG" />
+</a>
+
+<br>
 
 > _Wake up, Samurai. We have a server to burn._ █
 
@@ -51,6 +45,14 @@
 - `[GLASS_PROTOCOLS]` :: High-end transparency with background blur (`--app-blur`) for depth.
 - `[INDUSTRIAL_FRAME]` :: Squared-off corners, glowing borders, and tech-inspired typography (`Rajdhani`).
 - `[DYNAMIC_RESPONSE]` :: Elements glow, rotate, and shift upon interaction.
+
+### 📸 VISUAL_INTEL
+
+<div align="center">
+  <img src="media/screenshot_full.png" alt="Full Interface" width="100%" style="border-radius: 8px; border: 1px solid #b266ff; margin-bottom: 10px;">
+  <br>
+  <img src="media/screenshot_panel.png" alt="User Panel" width="100%" style="border-radius: 8px; border: 1px solid #00ffff;">
+</div>
 
 ---
 
