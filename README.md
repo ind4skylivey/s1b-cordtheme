@@ -114,4 +114,7 @@ Establish a secure connection with the developer.
 **Architect**: `il1v3y` | **S1B Group**
 _The future is now._
 
+<br>
+<img src="media/s1b_footer.png" alt="S1B CordTheme Footer" width="100%" style="border-radius: 10px; margin-top: 20px;">
+
 </div>
