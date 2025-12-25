@@ -6,6 +6,8 @@
 ![Status](https://img.shields.io/badge/SYSTEM-ONLINE-cyan?style=for-the-badge)
 ![Faction](https://img.shields.io/badge/FACTION-S1B_GROUP-ff003c?style=for-the-badge)
 
+<img src="media/s1b_banner.png" alt="S1B CordTheme Banner" width="100%" style="border-radius: 10px; border: 2px solid #b266ff; box-shadow: 0 0 20px rgba(178, 102, 255, 0.5);">
+
 > _Wake up, Samurai. We have a server to burn._
 
 </div>
