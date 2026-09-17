@@ -1,5 +1,5 @@
 /**
- * @name SiB Gr0up theme
+ * @name S1B Theme v3
  * @author il1v3y
  * @version 25.1
  * @website https://ind4skylivey.github.io/
@@ -10,7 +10,7 @@
 /* ======================================================================== */
 
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&display=swap');
-@import url('https://ind4skylivey.github.io/S1B-Discord/awkglass/loader.css');
+@import url('https://ungiglio.github.io/DiscordDiscordia/awkglass/loader.css');
 
 
 /* ======================================================================== */
@@ -122,4 +122,29 @@ button[class*="colorBrand"]:hover {
 ::-webkit-scrollbar-thumb {
     background: rgba(var(--rgb-highlight), 0.5) !important;
     border-radius: 0px !important;
+}
+/* ===== CHAT READABILITY ===== */
+
+/* 1. Semi-opaque layer over the chat background: keeps the blur but reduces its noise */
+.chat__background,
+[class*="chatContent"] {
+  background: rgba(26, 8, 36, 0.82) !important;  /* dark purple matching your palette */
+}
+
+/* 2. Message channels: sharper text with better contrast */
+.messageListItem__ , .message_d5deea {
+  --text-normal: rgb(241, 236, 247);   /* same one you use in the header, keeps it consistent */
+  --text-muted: rgb(180, 165, 195);   /* timestamps/links: raised from dull gray to a lavender */
+  --header-primary: rgb(241, 236, 247);
+  --header-secondary: rgb(180, 165, 195);
+}
+
+/* 3. A subtle text-shadow-style glow improves perceived sharpness over the blur */
+.message_d5deea * {
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.45);
+}
+
+/* 4. (Optional) Message hover using your highlight instead of gray */
+.message_d5deea:hover {
+  background: rgba(178, 102, 255, 0.06) !important;
 }
