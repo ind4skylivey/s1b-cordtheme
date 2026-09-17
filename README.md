@@ -49,7 +49,7 @@
 ### 📸 VISUAL_INTEL
 
 <div align="center">
-  <img src="media/s1b_showcase.png" alt="S1B CordTheme Showcase" width="100%" style="border-radius: 10px; border: 2px solid #b266ff; box-shadow: 0 0 20px rgba(178, 102, 255, 0.5);">
+  <img src="media/s1b_new_showcase.png" alt="S1B Theme Showcase" width="100%" style="border-radius: 10px; border: 2px solid #b266ff; box-shadow: 0 0 20px rgba(178, 102, 255, 0.5);">
 </div>
 
 ---
@@ -150,3 +150,4 @@ _The future is now._
 <img src="media/s1b_footer.png" alt="S1B CordTheme Footer" width="100%" style="border-radius: 10px; margin-top: 20px;">
 
 </div>
+
