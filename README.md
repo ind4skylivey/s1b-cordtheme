@@ -49,9 +49,7 @@
 ### 📸 VISUAL_INTEL
 
 <div align="center">
-  <img src="media/screenshot_full.png" alt="Full Interface" width="100%" style="border-radius: 8px; border: 1px solid #b266ff; margin-bottom: 10px;">
-  <br>
-  <img src="media/screenshot_panel.png" alt="User Panel" width="100%" style="border-radius: 8px; border: 1px solid #00ffff;">
+  <img src="media/screenshot_showcase.png" alt="S1B CordTheme Showcase" width="100%" style="border-radius: 8px; border: 1px solid #b266ff; margin-bottom: 10px;">
 </div>
 
 ---
